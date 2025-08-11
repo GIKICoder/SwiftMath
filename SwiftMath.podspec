@@ -16,6 +16,7 @@ SwiftMath is similar to MathJax or KaTeX for the web but for native iOS or MacOS
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.7'
+  s.module_name = 'SwiftMath'
 
   s.source_files = 'Sources/SwiftMath/**/*.swift'
   s.resource_bundles = {
