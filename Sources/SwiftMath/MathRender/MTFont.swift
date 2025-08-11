@@ -41,7 +41,7 @@ public class MTFont {
     
     static var fontBundle:Bundle {
         // Uses bundle for class so that this can be access by the unit tests.
-        Bundle(url: Bundle.module.url(forResource: "mathFonts", withExtension: "bundle")!)!
+        BundleHelper.resourceBundle
     }
     
     /** Returns a copy of this font but with a different size. */
