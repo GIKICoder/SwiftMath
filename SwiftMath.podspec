@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftMath-pod'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0.pod'
   s.summary          = 'A Swift library for rendering beautifully typeset math equations in iOS and macOS applications.'
   
   s.description      = <<-DESC
